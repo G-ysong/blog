@@ -7,13 +7,13 @@
     .copyright!= `&copy;${nowYear} By ${config.author}`
   if theme.footer_copyright.enable
     .framework-info
-      span= _p('footer.driven') + ' '
-      a(href='https://hexo.io')
-        span Hexo
+      //- span= _p('footer.driven') + ' '
+      a(href='https://g-ysong.github.io')
+        span 首页
       span.footer-separator |
-      span= _p('footer.theme') + ' '
-      a(href='https://github.com/jerryc127/hexo-theme-butterfly')
-        span Butterfly
+      //- span= _p('footer.theme') + ' '
+      //- a(href='https://github.com/jerryc127/hexo-theme-butterfly')
+      span 本站是个人博客，不做任何商业用途。
   if theme.footer_custom_text
     .footer_custom_text!=`${theme.footer_custom_text}`   
   if theme.ICP.enable

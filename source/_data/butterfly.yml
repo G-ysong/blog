@@ -413,7 +413,7 @@ anchor: false
 # 默認top_img全屏，site_info在中間
 # 使用默認, 都無需填寫（建議默認）
 index_site_info_top: # 主頁標題距離頂部距離  例如 300px/300em/300rem/10%
-index_top_img_height: # 主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
+index_top_img_height: 50vh # 主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
 
 # category和tag頁的UI設置
 # index 值代表 UI將與首頁的UI一樣
@@ -531,8 +531,9 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - 今日事&#44;今日做
+    - 所有的不平凡都来自平凡!
+    - 真正的大师永远都怀着一颗学徒的心!
 
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標
@@ -695,7 +696,6 @@ Open_Graph_meta: true
 
 # 開啟hexo自帶的緩存，加快生成速度
 fragment_cache: true
-
 # inject
 # 插入代码到头部</head>之前 和 尾部</body>之前
 inject:
