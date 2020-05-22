@@ -1,0 +1,8 @@
+class:
+  class_name: 友情链接
+  link_list: 
+    1:
+      name: xxx
+      link: https://blog.xxx.com
+      avatar: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590129880613&di=f0a76d03a6d98f78a574a6208a0e044f&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fd62a6059252dd42a1c362a29033b5bb5c9eab870.jpg
+      descr: xxxxxxx

@@ -3,14 +3,28 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 个人博客
-subtitle: ''
-description: ''
+title: 热的冰红茶
+subtitle: 'Diary'
+description: '生命不息，创作不止'
 keywords:
 author: gys
 language: zh-CN
 timezone: ''
 
+# 豆瓣电影插件
+douban:
+  user: 176566639
+  builtin: true
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 10000 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
@@ -46,7 +60,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
