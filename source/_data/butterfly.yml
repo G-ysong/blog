@@ -265,23 +265,23 @@ gitalk:
 
 # valine comment system. https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  enable: true # if you want use valine,please set this value is true
+  appId: wUKCQTgtQjrpSoFAEaeavU5k-gzGzoHsz# leancloud application app id
+  appKey: laLLRpfg1B7h63iH0GhdXE6H# leancloud application app key
   notify: false # valine mail notify (true/false) Deprecated in v1.4.0+
   verify: false # valine verify code (true/false) Deprecated in v1.4.0+
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: en # i18n: zh-CN/zh-TW/en/ja
-  placeholder: Please leave your footprints # valine comment input placeholder(like: Please leave your footprints )
-  guest_info: nick,mail,link #valine comment header info
+  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
+  placeholder: 说点什么呗~~ # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail #valine comment header info nick,mail,link
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   emojiCDN: # emoji CDN
-  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields nick/mail/link
   bg: # valine background
-  count: false # dispaly comment count in top_img
+  count: true # dispaly comment count in top_img
 
 # utterances
 # https://utteranc.es/
@@ -531,7 +531,7 @@ subtitle:
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 今日事&#44;今日做
+    - 今日事&#44;今日毕
     - 所有的不平凡都来自平凡!
     - 真正的大师永远都怀着一颗学徒的心!
 
