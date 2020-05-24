@@ -266,8 +266,8 @@ gitalk:
 # valine comment system. https://valine.js.org
 valine:
   enable: true # if you want use valine,please set this value is true
-  appId: wUKCQTgtQjrpSoFAEaeavU5k-gzGzoHsz# leancloud application app id
-  appKey: laLLRpfg1B7h63iH0GhdXE6H# leancloud application app key
+  appId: wUKCQTgtQjrpSoFAEaeavU5k-gzGzoHsz # leancloud application app id
+  appKey: laLLRpfg1B7h63iH0GhdXE6H # leancloud application app key
   notify: false # valine mail notify (true/false) Deprecated in v1.4.0+
   verify: false # valine verify code (true/false) Deprecated in v1.4.0+
   pageSize: 10 # comment list page size
