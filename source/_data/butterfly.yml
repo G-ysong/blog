@@ -429,7 +429,7 @@ tag_ui: # 留空或index
 background:
 
 # footer是否顯示圖片背景(與top_img一致)
-footer_bg: false
+footer_bg: true
 
 # 背景特效
 # 避免卡頓，建議只開啟一個
@@ -460,9 +460,9 @@ canvas_nest:
 
 # 打字效果
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # 冒光特效
-  shake: true # 抖動特效
+  shake: false # 抖動特效
 
 # 鼠標點擊效果
 # 避免卡頓，建議只開啟一個
@@ -476,7 +476,7 @@ click_heart:
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
-  enable: false
+  enable: true
   text:
     - I
     - LOVE
@@ -490,7 +490,7 @@ display_mode: light
 
 # 美化頁面顯示
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -586,7 +586,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 18/12/2019 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
