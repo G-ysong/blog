@@ -11,7 +11,7 @@ author: gys
 language: zh-CN
 timezone: ''
 
-# 豆瓣电影插件
+# 豆瓣插件
 douban:
   user: 176566639
   builtin: true
