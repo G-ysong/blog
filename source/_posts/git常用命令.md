@@ -131,4 +131,45 @@ copyright: false
         git reflog
     21. 从本地master拉取代码更新当前分支：branch 一般为master
         git rebase [branch]
+### 远程同步 ###
+    1. 更新远程仓库
+        git remote update
+    2. 下载远程仓库的所有变动
+        git fetch [remote]
+    3. 显示所有远程仓库
+        git remote -v
+    4. 显示某个远程仓库的信息
+        git remote show [remote]
+    5. 增加一个新的远程仓库，并命名
+        git remote add [shortname] [url]]\
+    6. 取回远程仓库的变化，并与本地分支合并
+        git pull [remote] [branch]
+    7. 上传本地指定分支到远程分支
+        git push [remote] [branch]
+    8. 强行推送当前分支到远程仓库，即使有冲突
+        git push [remote] --force
+    9. 推送所有分支到远程仓库
+        git push [remote] --all
+### 撤销 ###
+    1. 恢复暂存区的指定文件到工作区
+        git checkout [file]
+    2. 恢复某个commit的指定文件到暂存区和工作区
+        git checkout [commit] [file]
+    3. 恢复暂存区所有文件到工作区
+        git checkout .
+    4. 重置暂存区的指定文件，与上一次commit保持一致，但工作区不变
+        git reset [file]
+    5. 重置暂存区与工作区，与上一次commit保持一致
+        git reset --hard
+    6. 重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变
+        git reset [commit]
+    7. 重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致
+        git reset --hard [commit]
+    8. 重置当前HEAD为指定commit，但保持暂存区和工作区不变
+        git reset --keep [commit]
+    9. 新建一个commit，用来撤销指定commit 后者的所有变化都将被前者抵消，并且应用到当前分支
+        git revert [commit]
+    10. 暂时将未提交的变化移除，稍后再移入
+        git stash
+        git stash pop
     
