@@ -115,6 +115,6 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/G-ysong/G-ysong.github.io
+  repository: https://gitee.com/G-ysong/g-ysong
   branch: master
   
